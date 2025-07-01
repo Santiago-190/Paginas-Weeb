@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    text-align: center !important;
+    font-size: 23px;
+    box-align: left;
+    background: linear-gradient(to right, #48e4, #fff, #cccccc);
+}
+
+.nav {
+    background-color: #0cc6f7;
+}
+
+.nav__list {
+    margin: 0;
+}
+
+.nav__item {
+    display: inline-block;
+    padding-bottom: 24px;
+    background-color: #0cc6f7;
+    text-align: center;
+    margin-right:90px;
+}
+
+.nav__link {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    margin-right: 75px;
+}
+
+.nav__link:hover {
+    color: #ffe;
+    background-color: #0cc6f7;
+}
+
+
+
+.s {
+    background-color: #0cc6f7;
+    color: #0cc6f7;
+    font-size: -200px;
+    border: 5px  solid #000;
+    border-right: 8px solid #000;
+    border-top: 12px solid #000;
+    display: ;
+}
+
+
+.icon-link {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  font-size: 35px;
+  color: #333;
+  margin: 0 10px;
+  background-color: #0cc6f7;
+  margin-right: 0px;
+}
+
+.icon-link:hover {
+  color: #fff;
+  background-color: #0cc6f7;
+}
+
+.icon-link span {
+  font-size: 14px;
+  margin-top: 5px;
+  background-color: #0cc6f7;
+}
+
+.icono-comida {
+      font-size: 290px;         /* Tamaño grande */
+      color: black;            /* Color negro */
+      text-decoration: none;   /* Sin subrayado */
+      display: flex;
+      flex-direction: column;
+      align-items: last baseline;
+      font-family: sans-serif;
+      background-color: #0cc6f7;
+    }
+
+    .icono-comida span {
+      font-size: 18px;
+      margin-top: 8px;
+      color: black;
+      background-color: #0cc6f7;
+    }
+
+    .icono-comida:hover {
+      opacity: 0.8;    
+      background-color: #0cc6f7;        /* Ligero efecto hover */
+    }
+
+    #logo_santi {
+      width: 100px;
+      height: 100px;
+      left: 65px;
+      top: 40px;
+      position: fixed;
+      margin-right: 40px;
+      /* z-index: 50000000000; */
+      /* display: inline !important; */
+    }
+

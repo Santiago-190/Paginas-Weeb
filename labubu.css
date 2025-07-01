@@ -1,0 +1,50 @@
+body {
+  background: linear-gradient(to right, #48e3, #fff, #ccc7);
+  font-family: sans-serif;
+  display: flex;
+}
+
+
+.box {
+  --color-principal: #48e33333;
+  background:linear-gradient(to right, #48e9,  blue, #48e9);
+  display: grid;
+  place-content: center;
+  color: #fff;
+  font-size: 30px;
+  border-radius: 20px;
+  border: 5px solid #000;
+  margin: auto;
+  width: 900px;
+  margin: 120px auto;
+  padding: 0 40px;
+   text-shadow:
+    2px 2px 0 black;
+    display:inline-block;
+    font-size: clamp(2.4rem, 2.2vw, 4rem);
+    background-color: var(--color-principal);
+}
+
+
+
+h1 {
+  font-size: 2.4em;
+  margin-bottom: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+h3 {
+    font-size: 37px;
+    text-align: center;
+    margin: auto;
+}
+
+*::selection {
+  color: orange;
+  background-color: #ffc07277;
+}

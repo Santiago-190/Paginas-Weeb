@@ -1,0 +1,27 @@
+body {
+  background: linear-gradient(to right, #48e3, #fff, #ccc7);
+  font-family: sans-serif;
+  display: flex;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.box {
+  font-size: 30px;
+  padding: 0 40px;
+  border: 7px solid #000;
+  border-radius: 5px;
+  width: 45vw;
+  height: 200vh;
+  overflow: scroll;
+  scroll-behavior: smooth;
+  scrollbar-color: #48e #fff;
+  margin: auto;
+  scrollbar-width: thin;
+}
+
+.crecer {
+  height: 200vh;
+}

@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    background-color: black;
+}
+
+input{
+    width: 80%;
+   box-sizing: border-box;
+   background-color: black;
+    color: white;
+    border: white 2px solid;
+    padding: 10px 0; 
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 10%;
+    border-radius: 10px;
+}
+
+.form {
+    margin: 40px;
+    padding: 10px 20px;
+
+}
+
+h1{
+    text-align: center;
+    font-family: "Lilita One", sans-serif;
+    
+    color: white;
+}
+
+input::placeholder {
+    color: white;
+    padding-left: 30px;
+    text-align: center;
+    
+}
+
+.santi {
+    background-color: black;
+    color: rgb(255, 255, 255);
+    border-bottom: white 5px solid;
+    padding: 15px ; 
+    width: 98.3%;
+    box-sizing: border-box;
+    height: 1px ;
+    padding-bottom: 20px;
+    margin-left: 1%;
+    border-radius: 100%;
+    
+}
+
+
+
+
+

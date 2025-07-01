@@ -1,0 +1,788 @@
+body {
+    font-family: sans-serif;
+    background: linear-gradient(to right, #48e4, #fff, #cccccc);;
+}
+
+.hr {
+    height: 5px;
+    background-color: #000;
+    border-radius: 3px;
+    margin-top: 15px;
+    padding: 0;
+}
+
+h3 {
+    font-size: 37px;
+    text-align: center;
+}
+
+
+/*SELECTOR DE ATRIBUTO*/
+
+img[src$="s"] {
+    width: 30%;
+}
+
+
+/*SELECTOR DE DESCENDIENTE*/
+
+ul li {
+    color: #666;
+}
+
+
+/*SELECTOR DE HIJO DIRECTO*/
+
+li>em {
+    color: red;
+}
+
+
+/*SELECTOR DE HERMANO ADYACENTE*/
+
+h1+p {
+    color: blue;
+    background-color: red;
+}
+
+
+/*SELECTOR DE HERMANO SGENERALES*/
+
+h1~p {
+    color: blue;
+}
+
+h1,
+p {
+    color: green;
+}
+
+.body {
+    color: brown;
+    font-family: sans-serif;
+}
+
+.gel {
+    font-size: 34px;
+}
+
+.gal {
+    color: inherit;
+}
+
+h5 {
+    font-size: 32px;
+}
+
+.titulo {
+    color: blue !important;
+}
+
+#title {
+    color: green;
+}
+
+.s {
+    color: #48e;
+    margin: 30px;
+}
+
+.s:hover {
+     background: linear-gradient(to right, #48e4, #fff, #cccccc);;
+    color: #000;
+}
+
+h5:active {
+    background-color: #999;
+    color: #fff;
+}
+
+ul {
+    padding: 0;
+    background-color: #999;
+}
+
+ul:first-child {
+    color: red;
+}
+
+ul:nth-child(2n) {
+    color: yellow;
+    background-color: #fff;
+}
+
+ul:nth-child(3n) {
+    color: green;
+    background-color: #fff;
+}
+
+ul:last-child {
+    color: blue;
+}
+
+input {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    border: 2px solid #666;
+    padding: 6px 12px;
+    box-shadow: 0px 0px 15px #0001;
+    background-color: transparent;
+    border-radius: 4px;
+    color: #eee;
+    margin-top: 4px;
+}
+
+textarea {
+    min-width: 100%;
+    min-height: 100px;
+    box-sizing: border-box;
+    border: none;
+    border: 1px solid #666;
+    padding: 6px 12px;
+    box-shadow: 0px 0px 15px #0001;
+    background-color: transparent;
+    border-radius: 4px;
+    color: #eee;
+    resize: none;
+    font-family: sans-serif;
+    font-size: 14px;
+    margin-top: 4px;
+}
+
+.form {
+    padding: 10px 20px;
+    border: 1px groove #222;
+}
+
+form {
+    background-color: #222;
+    padding: 20px 0px;
+    max-width: 500px;
+    margin: auto;
+    box-shadow: 0px 0px 55px #fff2;
+    margin-top: 20px;
+    border-radius: 8px;
+    border: 5px solid #666;
+}
+
+h2 {
+    font-family: sans-serif;
+    text-align: center;
+    margin: 0%;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 22px;
+    padding: 10px;
+    border-bottom: 3px solid #666;
+    color: #eee;
+}
+
+label {
+    font-size: 0.9em;
+    color: #eee;
+}
+
+.checkbox {
+    width: auto;
+}
+
+hr {
+    border: 0;
+    height: 5px;
+    background-color: #222;
+    margin: 20px 0px;
+}
+
+select {
+    width: 30%;
+    border: 1px solid #666;
+    padding: 6px 12px;
+    box-sizing: 0px 0px 15px #0001;
+    background-color: #222;
+    border-radius: 4px;
+    color: #eee;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+fieldset {
+    border: 1px solid #666;
+    margin: 20px;
+    padding: 0px 20px 20px 20px;
+    border-radius: 4px;
+    color: #eee;
+}
+
+legend {
+    padding: 0 6px;
+}
+
+.luis {
+    margin-bottom: 17px;
+}
+
+a {
+    color: #48e;
+    margin-bottom: 1px;
+    font-family: sans-serif;
+}
+
+input:invalid {
+    color: red;
+}
+
+input:valid {
+    color: #baf8ba;
+}
+
+input[type="submit"] {
+    color: white;
+    margin-top: 10px;
+}
+
+.doritos {
+    color: #000;
+}
+
+.panditas {
+    font-size: 37px;
+    color: #000;
+    font-family: Arial, sans-serif;
+}
+
+.panditas::first-letter {
+    color: red;
+    font-size: 3em;
+    letter-spacing: -17px;
+    padding-bottom: 70px;
+}
+
+.sabritas {
+    color: #000;
+    padding-bottom: 450px;
+    font-family: sans-serif;
+}
+
+.sabritas::first-line {
+    color: blue;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.sabritas:hover {
+    color: #003;
+    font-size: 17px;
+    background-color: #fef;
+}
+
+*::selection {
+    background-color: greenyellow;
+    color: darkred;
+}
+
+.box-santi-19 {
+    margin: 20px;
+    background-color: #efff;
+    border: 4px solid #48e;
+    padding: 6px;
+    border-radius: 30px;
+    width: 90%;
+}
+
+.barra-santi-18 {
+    padding: 40px;
+    background-color: #48e;
+    border-radius: 30px;
+    width: 3%;
+    animation-name: llenar-barra;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-play-state: running;
+}
+
+.barra-santi-18:active {
+    animation-play-state: paused;
+}
+
+@keyframes llenar-barra {
+    from {
+        width: 0%;
+        background-color: #48e;
+    }
+    50% {
+        background-color: #f33;
+    }
+    to {
+        width: 92.5%;
+    }
+}
+
+.css {
+    text-align: center;
+    display: block;
+    font-size: 50px;
+    margin-bottom: 80px;
+    margin-top: 80px;
+}
+
+.control {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin-top: 15px;
+    border: 5px solid #000;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 30px;
+    position: relative;
+}
+
+.tele {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    margin-top: 15px;
+    border: 5px solid #000;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 30px;
+    margin-top: -20px;
+    margin-left: 30px;
+    position: relative;
+}
+
+.sofa {
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    margin-top: 15px;
+    border: 5px solid #000;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 30px;
+    margin-top: -30px;
+    margin-left: 50px;
+    position: relative;
+}
+
+.puff {
+    margin-left: 40%;
+    margin-bottom: 25px;
+    margin-top: 30px;
+}
+
+.yo {
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    border: 5px solid #000;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.tu {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    top: 0px;
+    left: 0;
+    margin: auto;
+    border: 5px solid #000;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.el {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border: 5px solid #000;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.contenedor {
+    border: 3px solid darkblue;
+    margin: 40px 270px;
+    color: #000;
+    font-family: sans-serif;
+    text-align: center;
+    position: relative;
+    font-size: 30px;
+}
+
+.body-luis {
+    margin: 0%;
+    font-family: sans-serif;
+}
+
+.lol-sl {
+    height: 60px;
+    width: 200px;
+    background-color: #fff;
+    position: fixed;
+    top: 50%;
+    right: 0;
+    border: 3px solid #000;
+    border-right: none;
+    box-shadow: 0px 0px 40px #000;
+}
+
+.contenedor-slol {
+    padding: 150px;
+    background-color: blue;
+    position: relative;
+}
+
+.doritos-2 {
+    text-align: center;
+    color: #000;
+    border-bottom: none;
+    margin-top: 7px;
+}
+
+.box-fixed {
+    height: 75px;
+    width: 200px;
+    background-color: red;
+    position: sticky;
+    top: 100px;
+    bottom: 20px;
+    z-index: 40;
+    box-sizing: border-box;
+}
+
+.box-fixed-2 {
+    top: 130px;
+    height: 75px;
+    width: 200px;
+    background-color: red;
+    position: sticky;
+}
+
+.box-fixed-3 {
+    top: 130px;
+    height: 75px;
+    width: 200px;
+    background-color: red;
+    position: sticky;
+}
+
+.box-fixed-4 {
+    top: 130px;
+    height: 75px;
+    width: 200px;
+    background-color: red;
+    position: sticky;
+}
+
+.luis-santi-1 {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    margin: auto;
+    margin-top: 50px;
+    font-size: 60px;
+    text-align: center;
+    font-weight: bold;
+    transition-property: background-color, font-size, color;
+    transition-duration: 1s;
+    color: red;
+    display: inline-block;
+    margin-left: 155px;
+    border-radius: 5px;
+    border: 5px solid #000;
+}
+
+.luis-santi-1:hover {
+    background-color: #48e;
+    color: #fff;
+    font-size: 70px;
+}
+
+.uis-santi-1 {
+    width: 200px;
+    height: 200px;
+    background-color: #48e;
+    margin: auto;
+    margin-top: 50px;
+    font-size: 60px;
+    text-align: center;
+    font-weight: bold;
+    transition-property: background-color, font-size, color;
+    transition-duration: 1s;
+    color: #48e;
+    display: inline-block;
+    border-radius: 5px;
+    border: 5px solid #000;
+}
+
+.uis-santi-1:hover {
+    background-color: red;
+    color: #fff;
+    font-size: 70px;
+}
+
+.is-santi-1 {
+    width: 200px;
+    height: 200px;
+    background-color: greenyellow;
+    margin: auto;
+    margin-top: 50px;
+    font-size: 60px;
+    text-align: center;
+    font-weight: bold;
+    transition-property: background-color, font-size, color;
+    transition-duration: 1s;
+    transition-duration: 1s;
+    color: greenyellow;
+    display: inline-block;
+    border-radius: 5px;
+    border: 5px solid #000;
+}
+
+.s-santi-1 {
+    width: 200px;
+    height: 200px;
+    background-color: palevioletred;
+    margin: auto;
+    margin-top: 50px;
+    font-size: 60px;
+    text-align: center;
+    font-weight: bold;
+    transition-property: background-color, font-size, color;
+    transition-duration: 1s;
+    color: palevioletred;
+    display: inline-block;
+    border-radius: 5px;
+    border: 5px solid #000;
+}
+
+.is-santi-1:hover {
+    background-color: palevioletred;
+    color: #fff;
+    font-size: 70px;
+}
+
+.s-santi-1:hover {
+    background-color: greenyellow;
+    color: #fff;
+    font-size: 66.5px;
+}
+
+.santi-20 {
+    background-color: #48e;
+    height: 100px;
+    width: 100px;
+    border: 5px solid #000;
+    border-radius: 5px;
+    margin-top: 70px;
+    transition: left 1s cubic-bezier(0.17, 0.36, 0.9, 0.45);
+    position: relative;
+    left: 0;
+}
+
+.santi-20:active {
+    left: 700px;
+}
+
+.box_santi45 {
+    margin: 20px;
+    background: #fff;
+    padding: 4px;
+    border: 3px solid #000;
+    border-radius: 39px;
+    padding-bottom: 4px;
+}
+
+.barra_santi45 {
+    padding: 40px;
+    background-color: #48e;
+    border-radius: 30px;
+    border: solid 3px #48c;
+    width: 2%;
+    transition-duration: 3s;
+}
+
+.barra_santi45:active {
+    width: 90%;
+    background-color: #f33;
+    transition-duration: 3s;
+    border: solid 3px #f32;
+}
+
+.santi-21 {
+    background-color: #fff;
+    height: 220px;
+    width: 220px;
+    border: 2px solid #0009;
+    border-radius: 5px;
+    margin-top: 70px;
+    position: relative;
+    left: 0;
+    margin-left: 30em;
+    position: absolute;
+    margin-top: 100px;
+    overflow: auto;
+    margin-bottom: 20px;
+}
+
+.lol-98 {
+    background-color: #bbb;
+    height: 80vh;
+    box-sizing: border-box;
+    border: 5px solid #000;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-family: sans-serif;
+}
+
+.santi-94 {
+    background-color: #fff;
+    height: 50px;
+    width: 200px;
+    border: 1px solid #0006;
+    position: absolute;
+    border-radius: 5px;
+    margin-top: 0px;
+    position: relative;
+    left: 0;
+    margin-left: 30em;
+    position: absolute;
+    margin-top: 25px;
+    white-space: normal;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin-top: 5em;
+}
+
+.lol-99 {
+    background-color: #bbb;
+    height: 40vh;
+    box-sizing: border-box;
+    border: 5px solid #000;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-family: sans-serif;
+}
+
+.img-s {
+    width: 400px;
+    height: 200px;
+    object-fit: cover;
+    border: 10px groove #000;
+    margin-top: 20px;
+    margin-left: 23em;
+    object-position: center;
+    margin-bottom: 20px;
+}
+
+.luis-98 {
+    width: 150px;
+    height: 80px;
+    background-color: #ff0000;
+    margin-top: 55px;
+    margin-left: 31em;
+    border: 5px solid #000;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding: 10px;
+    margin-bottom: 40px;
+}
+
+.luis-98:hover {
+    outline: 10px dashed #00f;
+    outline-offset: 10px;
+}
+
+.body-sa987 {
+    margin: 0%;
+    font-family: sans-serif;
+}
+
+.flexbox {
+    display: flex;
+    margin-top: 30px;
+    flex-direction: row-reverse;
+}
+
+.flex-items {
+    width: 270px;
+    height: 120px;
+    background-color: #48e;
+    border: 5px solid #000;
+    margin: 10px;
+    border-radius: 5px;
+    text-align: center;
+    font-family: sans-serif;
+    color: #fff;
+    font-size: 40px;
+}
+
+.flex-items-2 {
+    width: 270px;
+    height: 120px;
+    background-color: #ff0000;
+    border: 5px solid #000;
+    margin: 10px;
+    border-radius: 5px;
+    margin-right: 150px;
+    text-align: center;
+    font-family: sans-serif;
+    color: #fff;
+    font-size: 40px;
+}
+
+.flex-items-3 {
+    width: 270px;
+    height: 120px;
+    background-color: greenyellow;
+    border: 5px solid #000;
+    margin: 10px;
+    border-radius: 5px;
+    text-align: center;
+    font-family: sans-serif;
+    color: #fff;
+    font-size: 40px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 80px 200px 200px;
+    grid-template-rows: 23% 300px 100px;
+}
+
+.grid-item {
+    background-color: #48e;
+    margin: 10px;
+    padding: 10px;
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+    border: 5px solid #000;
+    border-radius: 10px;
+    transition-duration: 2s;
+    transition-property: color;
+    margin-left: 10px;
+}
+
+.icon-link {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    margin-left: 42%;
+    font-size: 37px;
+}

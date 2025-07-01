@@ -1,0 +1,137 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  height: 100vh;
+  display: flex !important;
+  background-color: #48e;
+  border-radius: 30px;
+  background: linear-gradient(to right, #48e4, #fff, #cccccc);
+}
+
+*::selection {
+  background: orange; /* Fondo naranja al seleccionar */
+  color: white;
+  display: flex;
+}
+
+* {
+  display: flex !important;
+}
+
+
+.box {
+  margin: auto;
+  padding: 20px 50px;
+  border: 5px solid #000;
+  will-change: fit-content;
+}
+
+.box-2 {
+  margin: auto;
+  padding: 20px 50px;
+  border: 5px solid #000;
+  will-change: fit-content;
+  overflow: hidden;
+}
+
+img {
+  height: 200px;
+  width: 400px;
+  transform: scale(3) ;
+  display: flex !important;
+}
+
+.box-3 {
+  margin: auto;
+  border-radius: 30px;
+  background-color: #48e7;
+}
+
+
+h3 {
+    font-size: 37px;
+    text-align: center;
+    margin: auto;
+    margin-right: 370px;
+}
+
+
+.lol-sl {
+  height: 40px;
+  margin-top: 270px;
+  width: 80px;
+  margin-left: 30px;
+  margin-right: 100px;
+}
+
+div {
+  margin: auto;
+  text-align: center;
+}
+
+.img-2 {
+    height: 200px;
+  width: 400px;
+  scale: 0.3;
+  transform: scaleY(7);
+}
+
+.img-3 {
+    height: 200px;
+  width: 400px;
+  scale: 0.3;
+  transform: scalex(5);
+}
+
+.lol-2 {
+    font-size: 37px;
+    text-align: center;
+    margin: auto;
+    margin-left: 570px;
+    margin-right: 70px;
+}
+
+.img-4 {
+    height: 200px;
+  width: 400px;
+  scale: 0.3;
+  transform: scale3d(5, 8, 10);
+}
+
+.img-5 {
+    height: 200px;
+  width: 400px;
+  scale: 1;
+  transform: skew(27deg, 12deg);
+}
+
+.img-6 {
+    height: 200px;
+  width: 400px;
+  transform: rotate(0deg);
+  transition: 3s;
+}
+
+.img-6:active {
+    height: 200px;
+  width: 400px;
+  scale: 1;
+  transform: rotate(360deg);
+}
+
+.img-7:active {
+    height: 200px;
+  width: 400px;
+  scale: .2;
+  transform: translateY(500px);
+  height: 1px;
+}
+
+.img-7 {
+    height: 200px;
+  width: 400px;
+  scale: .5;
+  transition: 3s;
+}
+
+

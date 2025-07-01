@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background: linear-gradient(to right, #48e4, #fff, #cccccc);
+}
+
+dialog {
+    position: absolute;
+    background-color:#0009;
+    height: 587vh;
+    color: #fff;
+    box-sizing: border-box;
+}
+
+.modal__content {
+    background-color: #fff;
+    color: black;
+    padding: 20px;
+    margin: auto;
+    width: 80%;
+    margin-top: 50px;
+    position: relative;
+}
+
+.modal__title {
+    margin-top: auto;
+}
+
+.modal__close {
+   background-color: black;
+   color: white;
+   top: 0;
+   right: 0;
+   position: absolute;
+   padding: 4px 12px;
+}
+
+a {
+    color: #48e;
+    text-align: center;
+    font-size: 50px;
+    text-align: center;
+    display: inline-block;
+}

@@ -1,0 +1,26 @@
+body {
+    background-color: #ccc;
+    font-family: sans-serif;
+    height: 210vh;
+    background: linear-gradient(to right, #48e4, #0009, #cccccc);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.box {
+  height: 75dvh;
+  width: 40dvw;
+  background-color: color-mix(in srgb, #48e4 70%, #48e444);
+  margin: auto;
+  margin-top: 100px;
+  border: 7px solid #000;
+  border-radius: 30px;
+  text-align: center;
+  padding-top: 147px;
+  color: #fff;
+  font-size: 60px;
+  text-shadow:
+   2px 2px 0 #000;
+}
